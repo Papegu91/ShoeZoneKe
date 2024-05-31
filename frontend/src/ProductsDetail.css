@@ -1,0 +1,25 @@
+.products-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.product-image {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.product-name {
+    font-size: 2em;
+    margin: 10px 0;
+}
+
+.product-brand, .product-description, .product-price, .product-stock {
+    margin: 5px 0;
+}
+
+.product-price {
+    font-weight: bold;
+    color: #e74c3c;
+}

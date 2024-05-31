@@ -1,0 +1,63 @@
+/* Products.css */
+
+.products {
+    padding: 20px;
+    background-color: #f8f9fa; /* Light background color for the container */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for the container */
+    margin: 20px;
+}
+
+.products h2 {
+    font-size: 24px; /* Larger font size for the heading */
+    margin-bottom: 16px;
+    color: #333; /* Darker color for the heading text */
+}
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between product cards */
+}
+
+.product-card {
+    background-color: #fff; /* White background for the card */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for the card */
+    padding: 16px;
+    width: calc(33.333% - 20px); /* Three columns layout */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+.product-info h3 {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.product-info p {
+    margin: 4px 0;
+    color: #666;
+}
+
+.product-info a {
+    text-decoration: none; /* Remove underline from links */
+    color: #007bff; /* Blue color for links */
+    font-weight: bold;
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.product-info a:hover {
+    color: #0056b3; /* Darker blue on hover */
+}

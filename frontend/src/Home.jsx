@@ -1,8 +1,11 @@
-// Home.js
+// src/Home.jsx
 import React from 'react';
 import Navbar from './Navbar';
 import Sidebar from './Sidebar';
+import Products from './Products';
 import './Home.css';
+import ProductsDetail from './ProductsDetail';
+
 
 const Home = () => {
     return (
@@ -13,6 +16,7 @@ const Home = () => {
                 <div className="content">
                     <h1>Welcome to the Home Page!</h1>
                     <p>Discover the best shoes for every occasion.</p>
+                    <Products />
                 </div>
             </div>
         </div>
@@ -20,3 +24,4 @@ const Home = () => {
 };
 
 export default Home;
+
